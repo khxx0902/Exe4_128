@@ -53,5 +53,9 @@ namespace StackUsingLinkedList_CSharp
                 Console.WriteLine();
             }
         }
+        static void Main(string[] args)
+        {
+            Stacks s = new Stacks();
+        }
     }
 }
