@@ -42,6 +42,8 @@ namespace StackUsingLinkedList_CSharp
         public void display()
         {
             Node tmp;
+            if (empty())
+                Console.WriteLine("\nStack Empty");
         }
     }
 }
