@@ -39,5 +39,9 @@ namespace StackUsingLinkedList_CSharp
             Console.WriteLine("\nThe popped element is: " + top.info);
             top = top.next;
         }
+        public void display()
+        {
+            Node tmp;
+        }
     }
 }
